@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Dave's Daily Dingus</title>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+:root {
+  --text:        #000;
+  --textSpecial: #c00;
+  --bgRegular:   rgba(255,255,255,1);
+  --bgSpecial:   rgba(255,221,221,.5);
+}
+
+*{box-sizing:border-box}body{margin:0;padding:2em;background:#666 url(_images/background.jpg);background-attachment:fixed;background-position:50% 50%;background-size:cover;color:var(--text);font:10pt Montserrat;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}main{width:100%;display:flex;flex-flow:row nowrap;justify-content:flex-start}a[href]{display:block;color:var(--text);text-align:center;text-decoration:none!important}h4{display:none}input[type=checkbox]{position:relative;top:3px;margin:0 .25em 0 .5em;vertical-align:top}li{margin-bottom:.25rem;padding:.5em 0;background:var(--bgRegular);box-shadow:.25em .25em .25em rgba(0,0,0,.5);line-height:1.1;opacity:.5;transition:all linear .5s}li.job,ul.temporary li{background:var(--bgSpecial)}li:hover{outline:1px solid #000;opacity:1;transform:rotate(0)!important}li.visited:hover{filter:blur(0)!important;-webkit-filter:blur(0)}li:nth-of-type(n){transform:rotate(-3deg)}li:nth-of-type(2n){transform:rotate(2deg)}li:nth-of-type(3n){transform:rotate(-1deg)}li:nth-of-type(4n){transform:rotate(.5deg)}li:nth-of-type(5n){transform:rotate(-.5deg)}li:nth-of-type(6n){transform:rotate(1deg)}li:nth-of-type(7n){transform:rotate(-2deg)}li:nth-of-type(8n){transform:rotate(3deg)}ul{margin:0;padding:0;list-style-type:none}ul:not(.perpetual) li.visited{opacity:.25;filter:blur(3px);-webkit-filter:blur(3px)}article#tasklist li.visited{text-decoration:line-through}p#date{margin:0 0 2em;color:var(--textSpecial);font-weight:800;text-transform:uppercase;opacity:.75}p#date span{display:block;text-align:center;letter-spacing:-.15em;line-height:.75em}p#date span#month{font-size:60pt}p#date span#day{font-size:100pt}.d0,.d1,.d2,.d3,.d4,.d5,.d6{display:none}.t00,.t09,.t17{display:none!important}.shown{display:block!important}form{position:fixed;bottom:0;left:0;right:0;display:flex;flex-flow:row nowrap;align-items:center;border-top:2px solid #ccc;padding:.5em 2em;background:#fff}form *+*{margin-left:1em}form label{font-weight:700}form input{flex-grow:1}@media screen and (min-width:1025px){main{min-height:calc(100vh - 6em);flex-flow:row nowrap;justify-content:flex-start}article{width:250px}article+article{margin-left:1rem}article:last-child{margin-left:auto;align-self:flex-end}.mobile{display:none}}@media screen and (max-width:1024px){main{flex-flow:column}article{width:100%;max-width:320px}article+article{margin-top:1rem)}.desktop{display:none}form{display:none}}</style>
+
+<base target="_blank">
+
+</head>
+<body>
+
+<main>
+
+ <article id="today">
+  <p id="date"><span id="month">XXX</span><span id="day">YY</span><p>
+  <section id="hexagram" class="desktop"></section>
+ </article>
+
+<!--LINKS-->
+
+ <article id="links">
+  <ul class="perpetual">
+   <li class="perpetual"><a href="http://instagram.com">Instagram</a>
+   <li class="perpetual"><a href="https://linkedin.com">LinkedIn</a>
+   <li class="perpetual"><a href="http://twitter.com">Twitter</a>
+   <li class="perpetual"><a href="http://tumblr.com">Tumblr</a>
+   <li class="perpetual"><a href="http://webmail.pair.com">Webmail</a>
+  </ul>
+
+  <ul class="t00">
+   <li class="d1 job"><a href="https://www.dice.com/">Dice</a>
+   <li class="d2 job"><a href="https://www.indeed.com/">Indeed</a>
+   <li class="d3 job"><a href="https://www.linkedin.com/">LinkedIn</a>
+   <li class="d4 job"><a href="https://www.monster.com/">Monster</a></li>
+   <li class="d5 job"><a href="https://www.usajobs.gov/">USAJOBS</a></li>
+   <li class="d6 job"><a href="https://www.ziprecruiter.com/">Ziprecruiter</a></li>
+
+   <li class="d0 d6"><a href="http://www.buttsmithy.com">Alfie</a></li>
+   <!--li class="d1 d3 d5"><a href="http://www.scarygoround.com">Bad Machinery</a></li-->
+   <!--li class="d1 d2 d3 d4 d5"><a href="http://bobbins.horse/">Bobbins</a></li-->
+   <li class="d5"><a href="http://www.angryflower.com">Bob the Angry Flower</a></li>
+   <li class="d6"><a href="http://english.bouletcorp.com/">Bouletcorp</a></li>
+   <li class="d2 d4"><a href="http://www.catandgirl.com">Cat and Girl</a></li>
+   <li class="d1"><a href="http://www.harpygee.com/">Harpy Gee</a></li>
+   <li class="d6"><a href="http://www.lewistrondheim.com/blog/">Les Petits Riens</a></li>
+   <li class="d2 d4"><a href="http://mediumlarge.wordpress.com/">Medium Large</a></li>
+   <li><a href="https://www.gocomics.com/nancy">Nancy</a></li>
+   <li class="d0 d6"><a href="http://www.oglaf.com/">Oglaf</a></li>
+   <li class="d0 d6"><a href="http://www.giantitp.com/comics/oots.html">Order of the Stick</a></li>
+   <li><a href="http://www.questionablecontent.net">Questionable Content</a></li>
+   <li class="d0 d6"><a href="http://www.rowenathebarbarian.com/">Rowena the Barbarian</a></li>
+   <li class="d1 d3 d5"><a href="http://www.joshuawright.net">Slack Wyrm</a></li>
+   <li class="d2"><a href="https://boingboing.net/author/ruben_bolling">Tom the Dancing Bug</a></li>
+   <li class="d1 d3 d5"><a href="http://xkcd.com/">XKCD</a></li>
+
+   <li><a href="https://www.eater.com/">Eater</a></li>
+   <li><a href="https://theincline.com/">Incline</a>
+   <li class="d1 d2 d3 d4 d5"><a href="https://www.jeopardy.com/play-shop/j6">J6!</a></li>
+   <li class="d5"><a href="http://mentalfloss.com/kennections">Kennections</a></li>
+   <li><a href="http://www.mtlebanonlibrary.org">Mt. Lebanon Library</a></li>
+   <li><a href="http://www.pghcitypaper.com/">Pittsburgh City Paper</a></li>
+   <li class="d5"><a href="http://www.slate.com">Slate</a></li>
+   <li><a href="http://www.teemagnet.com">Tee Magnet</a></li>
+   <li><a href="https://weather.com/weather/today/l/15203:4:US">Weather</a></li>
+  </ul>
+
+  <ul class="t09">
+   <li class="d0 d6"><a href="http://breakrpg.blogspot.co.uk/">Break!!</a></li>
+   <li class="d0 d6"><a href="http://roll1d12.blogspot.com/">Dungeon Dozen</a></li>
+   <li class="d0 d6"><a href="http://gone-and-forgotten.blogspot.com/">Gone and Forgotten</a></li>
+   <li class="d0 d6"><a href="http://www.housetoastonish.com/">House to Astonish</a></li>
+   <li class="d0 d6"><a href="http://jrients.blogspot.com/">Jeff's Gameblog</a></li>
+   <li class="d0 d6"><a href="http://www.misterkitty.org/extras/stupidcovers/index.html">Stupid Comics</a></li>
+
+   <li class="d2"><a href="http://www.alistapart.com">A List Apart</a></li>
+   <li><a href="http://www.artdaily.com/index.asp">ArtDaily</a></li>
+   <li><a href="http://www.askamanager.org/">Ask a Manager</a></li>
+   <li class="d5"><a href="http://adcontrarian.blogspot.com/">Ad Contrarian</a></li>
+   <li><a href="http://www.thisiscolossal.com/">Colossal Art & Design</a></li>
+   <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+   <li><a href="http://designobserver.com/">Design Observer</a></li>
+   <li class="d5"><a href="http://www.justinkownacki.com/">Justin Kownacki</a></li>
+   <li class="d1"><a href="http://www.nngroup.com/">Neilsen Norman Group</a></li>
+   <li><a href="http://searchengineland.com/">Search Engine Land</a></li>
+   <li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
+   <li class="d0 d6"><a href="https://www.usertesting.com/">UserTesting</a></li>
+   <li class="d1 d3 d5"><a href="https://uxdesign.cc/">UX Collective</a></li>
+  </ul>
+
+  <ul class="t17">
+   <li class="d2 d4"><a href="http://www.adamcadre.ac">Adam Cadre</a></li>
+   <li class="d0 d1 d2"><a href="http://www.armagideon-time.com/">Armagideon Time</a></li>
+   <li><a href="http://www.blogofdoom.com">Blog of Doom</a></li>
+   <li><a href="http://www.comicsreporter.com">Comics Reporter</a></li>
+   <li class="d3"><a href="https://www.previewsworld.com/NewReleases">Diamond Comics</a></li>
+   <li class="d2 d4"><a href="https://kinja.com/drewmagary">Drew Magary</a></li>
+   <li><a href="http://my.ebay.com">eBay</a></li>
+   <li class="d1 d5"><a href="http://www.housetoastonish.com/">House to Astonish</a></li>
+   <li><a href="http://www.motherjones.com/kevin-drum">Kevin Drum</a></li>
+   <li class="d1 d3 d5"><a href="http://loweringthebar.net/">Lowering the Bar</a></li>
+   <li class="d5"><a href="https://www.rollingstone.com/author/matt-taibbi/">Matt Taibbi</a></li>
+   <li><a href="http://www.mtlebanonlibrary.org">Mt. Lebanon Library</a></li>
+   <li><a href="http://www.newsfromme.com">News From ME</a></li>
+   <li><a href="http://overlawyered.com/">Overlawyered</a></li>
+   <li><a href="http://www.washingtonpost.com/pb/radley-balko">Radley Balko</a>
+   <li><a href="http://www.tcj.com/">TCJ</a></li>
+   <li><a href="http://www.tomandlorenzo.com/">Tom &amp; Lorenzo</a></li>
+   <li><a href="http://www.tvguide.com/listings/">TV Guide</a></li>
+   <li><a href="https://weather.com/weather/today/l/15203:4:US">Weather</a></li>
+   <li><a href="http://whenwillthehurtingstop.blogspot.com/">When Will the Hurting Stop?</a></li>
+   <li><a href="http://uproxx.com/prowrestling/">With Spandex</a></li>
+  </ul>
+ </article>
+
+<!-- TO DO --->
+
+ <article id="tasklist">
+  <ul class="temporary">
+  </ul>
+
+  <ul class="t00">
+   <li><input type="checkbox">Brush teeth</li>
+   <li><input type="checkbox">Calisthenics</li>
+   <li><input type="checkbox">Check cat food</li>
+   <li class="d5 d6 job"><input type="checkbox">Check job listings</li>
+   <li class="d1"><input type="checkbox">Check litterbox</li>
+   <li><input type="checkbox">Check trash can</li>
+   <li class="d1 d2 d3 d4 d5"><input type="checkbox">Learn something new</li>
+   <li><input type="checkbox">Take medications</li>
+  </ul>
+
+  <ul class="t09">
+   <li><input type="checkbox">Brush teeth</li>
+   <li class="d0"><input type="checkbox">Apply Software Updates</li>
+   <li class="d0 d6"><input type="checkbox">Call Chris (odd) or Steven (even)</li>
+   <li class="d0 d6"><input type="checkbox">Call Mom & Dad</li>
+   <li class="d6"><input type="checkbox">List items on eBay</li>
+   <li class="d0"><input type="checkbox">Shave and lotion</li>
+   <li class="d0"><input type="checkbox">Wipe browser histories</li>
+   <li class="d0 d6"><input type="checkbox">Yoga</li>
+  </ul>
+
+  <ul class="t17">
+   <li><input type="checkbox">Brush teeth</li>
+   <li><input type="checkbox">Check cat food</li>
+   <li class="d3 d5"><input type="checkbox">Check litterbox</li>
+   <li class="d0 d1 d2 d3"><input type="checkbox">Choose outfit</li>
+   <li class="d4 d5 d6"><input type="checkbox">Choose outfit (t-shirt)</li>
+   <li><input type="checkbox">Clean a room at random</li>
+   <li><input type="checkbox">Clean dishes</li>
+   <li class="d0 d4"><input type="checkbox">Laundry</li>
+   <li><input type="checkbox">Monitor BP and weight</li>
+   <li><input type="checkbox">Tidy workspace</li>
+  </ul>
+ </article>
+</main>
+
+<form id="temp">
+ <label for="task">What is it you need to do?</label>
+ <input name="task" id="task" placeholder="Temporary task" />
+ <button id="add">Add temporary task to list</button>
+ <button id="clear">Clear temporary tasks from list</button>
+</form>
+
+<script>function temporalizer(){switch(theDate=new Date,x=theDate.getDay(),y=theDate.getHours(),z=60-theDate.getMinutes(),document.querySelector("p#date").innerHTML=`\n    <span id="month">${theDate.toLocaleString("en-us",{month:"short"})}</span>\n    <span id="day">${theDate.toLocaleString("en-us",{day:"2-digit"})}</span>\n  `,document.querySelectorAll(".shown").forEach(function(e){e.classList.remove("shown")}),document.querySelectorAll(".d"+x).forEach(function(e){e.classList.add("shown")}),!0){case 0==y:yy="00",document.querySelectorAll(".visited").forEach(function(e){e.classList.remove("visited")}),document.querySelectorAll("input").forEach(function(e){e.checked=!1});break;case y<9:yy="00";break;case y>=9&&y<17:yy="09";break;case y>=17:yy="17"}document.querySelectorAll(".t"+yy).forEach(function(e){e.classList.add("shown")}),setTimeout(temporalizer,60*z*1e3)}function delist(e){redrawTasks(tasks=tasks.filter(t=>t!==e))}function redrawTasks(e){let t="";e.length>0&&e.forEach(function(e){t+=`<li><input type="checkbox" value="${e}">${e}</li>`}),document.querySelector("ul.temporary").innerHTML=t,document.querySelectorAll("ul.temporary input[type='checkbox']").forEach(function(e){e.addEventListener("click",function(e){delist(this.value)})}),localStorage.setItem("tasks",JSON.stringify(e))}temporalizer(),document.querySelectorAll("a[href], input[type='checkbox']").forEach(function(e){e.addEventListener("click",function(e){this.parentNode.classList.add("visited")})});var tasks=new Array;localStorage.length>0&&redrawTasks(tasks=JSON.parse(localStorage.getItem("tasks"))),document.querySelector("button#add").addEventListener("click",function(e){return e.preventDefault(),newTask=document.getElementById("task"),""!=newTask.value&&(tasks.push(newTask.value),newTask.value=""),redrawTasks(tasks),!1}),document.querySelector("button#clear").addEventListener("click",function(e){return e.preventDefault(),tasks.length=0,localStorage.clear(),redrawTasks(tasks),!1});</script>
+
+</body>
+</html>
